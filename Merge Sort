@@ -1,0 +1,12 @@
+Proje 2
+[16,21,11,8,12,22] -> Merge Sort
+Aşamaları:
+Diziyi sürekli ikiye böler ve sonucu küçükten büyüğe sıralar.
+Dizi 6 öğe içermektedir. 3-3 olcak şekilde dizi bölünür.
+[16,21,11] [8,12,22]
+[16] [21,11]     -   [8] [12,22]
+[16] [21] [11]   -   [8] [12] [22]
+[8,11,12,16,21,22]
+
+Big-O gösterimi:
+O(nlogn)
